@@ -1,0 +1,23 @@
+<div class="signupbox">
+    <h1>Sign up Here</h1>
+    <form action="">
+      <div class="form-group">
+        <label for="user">Username</label>
+        <input [(ngModel)]="registerUserData.username" name="username" type="text" class="form-control" placeholder="Enter Username" id="user" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input [(ngModel)]="registerUserData.email" name="email" type="email" class="form-control" placeholder="Email@address.com" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="pwd">Password</label>
+        <input [(ngModel)]="registerUserData.password" name="password" type="password" class="form-control" placeholder="Enter Password" id="pwd" required>
+      </div>
+      <div class="form-group">
+        <label for="pwd"> Confirm Password</label>
+        <input [(ngModel)]="registerUserData.password" name="password" type="password" class="form-control" placeholder="Confirm Password" id="Confirm-pwd" required>
+      </div>
+      <button (click)= 'registerUser()' type="button" class="btn">Create</button>
+      <h6>Already have a account? <a routerLink= "/login">login</a></h6>
+    </form>
+  </div>

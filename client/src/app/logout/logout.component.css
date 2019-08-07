@@ -1,0 +1,20 @@
+.logout {
+    height: 340px;
+    width: 420px;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    color: #cccdce;
+    text-align: center;
+}
+
+.bg {
+    background-color: #cccccc;
+    height: 89.5vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }

@@ -1,0 +1,36 @@
+.loginbox {
+    background: #5d737e;
+    height: 340px;
+    width: 420px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    color: #cccdce;
+  }
+  
+  .loginbox h1 {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .loginbox form {
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 300px;
+  }
+  
+  .loginbox h6 {
+    margin-top: 10px;
+  }
+  
+  .btn {
+    background: #cccdce;
+  }
+  
+  .form-control {
+    border: 2px solid #2c2d2e69;
+    border-radius: 20px;
+  }
+  

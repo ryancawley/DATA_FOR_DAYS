@@ -1,0 +1,40 @@
+p{
+    color: white; 
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+}
+body{
+    background-color: #383A3B;
+}
+.btn{
+    float: center;
+}
+a{
+    color: white;
+    align-self: center;
+}
+.jumpto{
+    margin-left: auto;
+    margin-right: auto;
+    width: 124px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.bg {
+    background-color: #cccccc;
+    height: 89.5vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }

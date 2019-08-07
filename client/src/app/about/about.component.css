@@ -1,0 +1,28 @@
+.jumbotron {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    padding-bottom: 10%;
+    color: #78818a;
+    text-align: center;
+    background-color: #eee;
+  }
+  
+  .header h2 {
+    padding-top: 2%;
+  }
+  
+  .team img {
+    border: 2px solid #050505c7;
+    border-radius: 50px;
+  }
+  
+  .team {
+    display: grid;
+    grid-gap: 25px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  

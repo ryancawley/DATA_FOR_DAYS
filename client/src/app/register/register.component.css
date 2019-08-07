@@ -1,0 +1,36 @@
+.signupbox {
+    background: #5d737e;
+    height: 510px;
+    width: 420px;
+    transform: translate(-50%, -50%);
+    color: #cccdce;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+  }
+  
+  .signupbox h1 {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .signupbox form {
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 300px;
+  }
+  
+  .signupbox h6 {
+    margin-top: 10px;
+  }
+  
+  .btn {
+    background: #cccdce;
+  }
+  
+  .form-control {
+    border: 2px solid #2c2d2e69;
+    border-radius: 20px;
+  }
+  

@@ -1,0 +1,67 @@
+<div class="header">
+    <h2>Galavant's Travel Blog</h2>
+  </div>
+  
+  <div>
+    <label class="hoverable" for="fileInput">
+    <img [src]="url ? url : 'https://www.w3schools.com/howto/img_avatar.png'"> 
+    <div class="hover-text">Choose file</div>
+    <div class="background"></div>
+    </label>
+    <br/>
+    <input id="fileInput" type='file' (change)="onSelectFile($event)">
+    <button *ngIf="url" (click)="delete()" >delete</button>
+  </div>
+  
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <h2>The Joust</h2>
+        <h5>Everything Hurts, Dec 7, 2017</h5>
+        <div class="fakeimg" style="height:400px;">
+            <img src="https://vignette.wikia.nocookie.net/galavant/images/a/af/Secret_Mission_%284%29.png/revision/latest?cb=20160104051022" style="width:500px;height:350px;">
+        </div>
+        <p>After some intense montage training, it hurts to even type this. Thankfully, I only have to fight one bout today.</p>
+      </div>
+      <div class="card">
+        <h2>The Pub</h2>
+        <h5>Did I Dream This?, Nov 21, 2017</h5>
+        <div class="fakeimg" style="height:400px;">
+            <img src="https://vignette.wikia.nocookie.net/galavant/images/a/af/Secret_Mission_%284%29.png/revision/latest?cb=20160104051022" style="width:500px;height:350px;">
+        </div>
+        <p>A princess came to ask for my help today. Now I may finally have a chance to rescue my one true love.</p>
+      </div>
+    </div>
+    <div class="rightcolumn">
+      <div class="card">
+        <h2>About Me</h2>
+        <div class="fakeimg" style="height:200px;">
+            <img src="https://static.tvtropes.org/pmwiki/pub/images/54a45f6677107image.jpg" style="width:190px; height:190px;">
+        </div>
+        <p>I'm a hero, and this is my moment in the sun. This is my moment.</p>
+      </div>
+      <div class="card">
+        <h3>Popular Post</h3>
+        <div class="fakeimg">
+            <img src="https://vignette.wikia.nocookie.net/galavant/images/c/ce/Sidneyland.jpg/revision/latest/scale-to-width-down/700?cb=20150127192621" style="width:315px; height:176px;"><br>
+            Visit Sidneyland!
+        </div><br>
+        <div class="fakeimg">
+            <img src="https://vignette.wikia.nocookie.net/galavant/images/1/10/Dance_Until_You_Die_%282%29.png/revision/latest?cb=20151228134903" style="width:315px; height:176px;"><br>
+            The Executioners, Live Dec 19 in Hortensia!
+        </div><br>
+        <div class="fakeimg">
+            <img src="https://cdn.pastemagazine.com/www/articles/Galavant%202.09%2B2.10.jpg" style="width:315px; height:176px;"><br>
+            The Final Battle</div>
+      </div>
+      <div class="card">
+        <h3>Follow Me</h3>
+        <button id="follow-button">Follow</button>	
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <h2>Thanks for visiting Galavant's Blog</h2>
+  </div>
+  
