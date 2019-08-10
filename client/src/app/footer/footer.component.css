@@ -1,25 +1,20 @@
-header {
+footer {
     background: #1f5e80;
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.5);
-    padding-bottom: 11px;
-    padding-top: 11px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    width: 100%;
   }
   
-  header::after {
+  footer::after {
     clear: both;
     content: "";
     display: table;
   }
-  .logo {
-    float: left;
-    margin-left: 30px;
-    width: 70px;
-    height: 40px;
-  }
   nav {
-    float: right;
-    margin: 10px;
+    float: left;
     padding: 0;
+    width: 33.32%;
   }
   
   nav ul {
@@ -31,8 +26,9 @@ header {
   }
   
   nav li {
-    display: inline-block;
-    margin-left: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 5px;
     position: relative;
   }
@@ -62,4 +58,4 @@ header {
   nav a:hover::before {
     width: 100%;
   }
-  
+

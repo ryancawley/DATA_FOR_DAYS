@@ -3,7 +3,7 @@ p{
     font-size: 40px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-
+    margin-top: 0px;
 }
 #footer{
     position: fixed;
@@ -31,7 +31,7 @@ a{
     font-size: 20px;
 }
 .bg {
-    background-color: #cccccc;
+    background-color: #9ca19e;
     height: 89.5vh;
     background-position: center;
     background-repeat: no-repeat;

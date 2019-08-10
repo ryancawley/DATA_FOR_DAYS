@@ -1,0 +1,28 @@
+<footer>
+    <div class="nav-area">
+    <nav col-1>
+      <ul>
+        <li><a routerLink="" routerLinkActive="active">Home</a></li>
+        <li><a routerLink="about" routerLinkActive="active">About</a></li>
+        <li><a routerLink="login" routerLinkActive="active" *ngIf="!authService.loggedIn()">Login</a></li>
+        <li><a [routerLink]="['/register']" routerLinkActive="active" *ngIf="!authService.loggedIn()">Sign up</a></li>
+        <li><a [routerLink]="['/logout']" routerLinkActive="active" *ngIf="authService.loggedIn()" (click)="authService.logoutUser()">Logout</a></li>
+        <li><a routerLink="profile" routerLinkActive="active" *ngIf="authService.loggedIn()" (click)="authService.logoutUser()">Profile</a></li>
+      </ul>
+    </nav>
+    <nav col-2>
+        <ul>
+            <li><a>Add</a></li>
+            <li><a>Add</a></li>
+            <li><a>Add</a></li>
+        </ul>
+    </nav>
+    <nav col-3>
+        <ul>
+            <li><a>Add</a></li>
+            <li><a>Add</a></li>
+            <li><a>Add</a></li>
+        </ul>
+    </nav>
+    </div>
+</footer>
